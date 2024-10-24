@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header .h-2 .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+header .h-2 .navbar ul li{
+    margin: 1rem;
+}
+header .h-2 .navbar ul li a{
+    font-size: 2rem;
+    color: bisque;
+}
+header .h-2 .navbar ul li a.active,header .h2 .navbar ul li a:hover{
+    color: #ff0;
+}
+header .h-2 .header-active{
+    position: fixed;
+    top: 0;left: 0;
+    box-shadow: 0 .1rem .3rem rgba(157, 106, 106, 0.3);
+}
+    </style>
+    <link rel="stylesheet" href="r.css">
+
+</head>
+<body>
+    <header>
+        <div class="h-1">
+            <a href="#" class="logo">UC Restro</a>
+            <h3 class="call">Call Now: +91-9255458427</h3>
+        </div>
+        <div class="h-2">
+            <nav class="navbar">
+                <ul>
+                    <li><a class="active" href="r.html">Home</a></li>
+                    <li><a href="dish.html">Dishes</a></li>
+                    <li><a href="chef.html">Chef</a></li>
+                    <li><a href="speciality.html">Speciality</a></li>
+                    <li><a href="order.html">Order</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="chef" id="chef">
+        <h1 class="heading"><span>Expert Chefs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="chef1.jpg" alt="Missing">
+                <div class="info">
+                    <h3>Sanjeev Kapoor</h3>
+                    <span>Head Chef</span>
+                    <div class="share">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="chef2.jpg" alt="Missing">
+                <div class="info">
+                    <h3>Vikas Khanna</h3>
+                    <span>Head Chef</span>
+                    <div class="share">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="chef3.jpg" alt="Missing">
+                <div class="info">
+                    <h3>Ranveer Brar</h3>
+                    <span>Head Chef</span>
+                    <div class="share">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+</body>
+</html>
